@@ -1,0 +1,2512 @@
+{
+ "rs334": {
+  "variant": {
+   "rsid": "rs334",
+   "chrom": "chr11",
+   "pos": 5227002,
+   "ref": "T",
+   "alt": "A",
+   "gene": "HBB",
+   "consequence": "missense (Glu6Val)",
+   "why": "The sickle-cell variant: a single base change that alters hemoglobin. Classic example of a coding variant with a large phenotypic effect.",
+   "scorers": [
+    "SPLICE_SITES",
+    "SPLICE_SITE_USAGE",
+    "RNA_SEQ"
+   ]
+  },
+  "scores": [
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+    "shape": [
+     1,
+     2
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000244734.4",
+      "col": "acceptor",
+      "value": 0.04516
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "donor",
+      "value": 0.031479
+     }
+    ],
+    "n_nonzero": 2,
+    "max_abs_effect": 0.04516
+   },
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+    "shape": [
+     1,
+     367
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000121 polyA plus RNA-seq",
+      "value": 0.013672
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000169 total RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000182 total RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000895 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_EFO:0007950 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_NTR:0000856 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_UBERON:0001224 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_UBERON:0002021 total RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_UBERON:0004538 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_UBERON:0018118 polyA plus RNA-seq",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000192 polyA plus RNA-seq",
+      "value": 0.009766
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000221 polyA plus RNA-seq",
+      "value": 0.009766
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000223 polyA plus RNA-seq",
+      "value": 0.009766
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000909 polyA plus RNA-seq",
+      "value": 0.009766
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_EFO:0007089 polyA plus RNA-seq",
+      "value": 0.009766
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000047 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000100 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000115 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000182 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000192 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000222 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000223 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000312 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000351 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000623 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000624 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000625 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000746 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000746 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000792 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000837 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000895 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000897 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000900 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000900 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0000909 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0001059 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0002324 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0002326 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "usage_CL:0002451 polyA plus RNA-seq",
+      "value": 0.007812
+     }
+    ],
+    "n_nonzero": 367,
+    "max_abs_effect": 0.013672
+   },
+   {
+    "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+    "shape": [
+     16,
+     371
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002319 polyA plus RNA-seq",
+      "value": -0.090018
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000222 polyA plus RNA-seq",
+      "value": -0.079494
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000351 polyA plus RNA-seq",
+      "value": -0.078658
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002368 total RNA-seq",
+      "value": -0.076471
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000192 total RNA-seq",
+      "value": -0.074631
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000192 polyA plus RNA-seq",
+      "value": -0.073709
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000746 polyA plus RNA-seq",
+      "value": -0.069204
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000121 polyA plus RNA-seq",
+      "value": -0.069201
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000625 total RNA-seq",
+      "value": -0.066587
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0011019 total RNA-seq",
+      "value": -0.064028
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000624 total RNA-seq",
+      "value": -0.062493
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000115 total RNA-seq",
+      "value": -0.06182
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002351 total RNA-seq",
+      "value": -0.061267
+     },
+     {
+      "track": "ENSG00000285498.1",
+      "col": "CL:0000842 total RNA-seq",
+      "value": -0.061076
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000307 total RNA-seq",
+      "value": -0.060659
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000792 total RNA-seq",
+      "value": -0.060315
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002577 total RNA-seq",
+      "value": -0.058603
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0002037 polyA plus RNA-seq",
+      "value": -0.058447
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002328 total RNA-seq",
+      "value": -0.056274
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000746 total RNA-seq",
+      "value": -0.052139
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "NTR:0000524 polyA plus RNA-seq",
+      "value": -0.051598
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0000955 polyA plus RNA-seq",
+      "value": -0.051498
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000100 total RNA-seq",
+      "value": -0.049782
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0009834 gtex Brain_Frontal_Cortex_BA9 polyA plus RNA-seq",
+      "value": -0.049157
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0001870 gtex Brain_Cortex polyA plus RNA-seq",
+      "value": -0.048409
+     },
+     {
+      "track": "ENSG00000221031.1",
+      "col": "CL:0000842 total RNA-seq",
+      "value": -0.04787
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0008971 total RNA-seq",
+      "value": 0.047261
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000679 total RNA-seq",
+      "value": -0.04685
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0009835 gtex Brain_Anterior_cingulate_cortex_BA24 polyA plus RNA-seq",
+      "value": -0.046647
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0001898 gtex Brain_Hypothalamus polyA plus RNA-seq",
+      "value": -0.044848
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002540 total RNA-seq",
+      "value": 0.044704
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000624 polyA plus RNA-seq",
+      "value": -0.044268
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0002324 polyA plus RNA-seq",
+      "value": -0.044195
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0000137 total RNA-seq",
+      "value": -0.043203
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0002245 gtex Brain_Cerebellar_Hemisphere polyA plus RNA-seq",
+      "value": -0.043173
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0001876 gtex Brain_Amygdala polyA plus RNA-seq",
+      "value": -0.043121
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0001954 gtex Brain_Hippocampus polyA plus RNA-seq",
+      "value": -0.042418
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "UBERON:0001870 total RNA-seq",
+      "value": -0.042307
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0001059 polyA plus RNA-seq",
+      "value": -0.042273
+     },
+     {
+      "track": "ENSG00000244734.4",
+      "col": "CL:0011022 polyA plus RNA-seq",
+      "value": -0.042157
+     }
+    ],
+    "n_nonzero": 5917,
+    "max_abs_effect": 0.090018
+   }
+  ]
+ },
+ "rs4988235": {
+  "variant": {
+   "rsid": "rs4988235",
+   "chrom": "chr2",
+   "pos": 135851076,
+   "ref": "G",
+   "alt": "A",
+   "gene": "MCM6 (regulates LCT)",
+   "consequence": "intronic, regulatory",
+   "why": "Lactase persistence: a noncoding variant in an enhancer that keeps the LCT gene switched on into adulthood. A textbook regulatory variant, ideal for chromatin and expression scorers.",
+   "scorers": [
+    "DNASE",
+    "ATAC",
+    "RNA_SEQ"
+   ]
+  },
+  "scores": [
+   {
+    "scorer": "CenterMaskScorer(requested_output=DNASE, width=501, aggregation_type=DIFF_LOG2_SUM)",
+    "shape": [
+     1,
+     305
+    ],
+    "top_scores": [
+     {
+      "track": "0",
+      "col": "UBERON:0002108 DNase-seq",
+      "value": 1.173738
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0000317 DNase-seq",
+      "value": 0.808895
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0004992 DNase-seq",
+      "value": 0.780551
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001157 DNase-seq",
+      "value": 0.770642
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0008971 DNase-seq",
+      "value": 0.72876
+     },
+     {
+      "track": "0",
+      "col": "EFO:0006639 DNase-seq",
+      "value": 0.596782
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0000059 DNase-seq",
+      "value": 0.588766
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001193 DNase-seq",
+      "value": 0.565121
+     },
+     {
+      "track": "0",
+      "col": "CL:0002536 DNase-seq",
+      "value": 0.464436
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001211 DNase-seq",
+      "value": 0.4354
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001987 DNase-seq",
+      "value": -0.402242
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002285 DNase-seq",
+      "value": 0.341683
+     },
+     {
+      "track": "0",
+      "col": "CL:0000182 DNase-seq",
+      "value": 0.34135
+     },
+     {
+      "track": "0",
+      "col": "EFO:0000681 DNase-seq",
+      "value": 0.326118
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0005033 DNase-seq",
+      "value": 0.318233
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002150 DNase-seq",
+      "value": 0.310594
+     },
+     {
+      "track": "0",
+      "col": "CL:0002306 DNase-seq",
+      "value": 0.30829
+     },
+     {
+      "track": "0",
+      "col": "EFO:0005384 DNase-seq",
+      "value": 0.304096
+     },
+     {
+      "track": "0",
+      "col": "EFO:0005707 DNase-seq",
+      "value": 0.296057
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002108 DNase-seq",
+      "value": 0.270664
+     },
+     {
+      "track": "0",
+      "col": "CL:0002584 DNase-seq",
+      "value": 0.270298
+     },
+     {
+      "track": "0",
+      "col": "CL:0000746 DNase-seq",
+      "value": 0.269065
+     },
+     {
+      "track": "0",
+      "col": "EFO:0005726 DNase-seq",
+      "value": 0.263283
+     },
+     {
+      "track": "0",
+      "col": "CL:0000351 DNase-seq",
+      "value": -0.258519
+     },
+     {
+      "track": "0",
+      "col": "CL:0002553 DNase-seq",
+      "value": 0.257687
+     },
+     {
+      "track": "0",
+      "col": "CL:0002558 DNase-seq",
+      "value": 0.251328
+     },
+     {
+      "track": "0",
+      "col": "CL:0002547 DNase-seq",
+      "value": 0.247943
+     },
+     {
+      "track": "0",
+      "col": "CL:0002565 DNase-seq",
+      "value": 0.239434
+     },
+     {
+      "track": "0",
+      "col": "CL:1000507 DNase-seq",
+      "value": 0.234769
+     },
+     {
+      "track": "0",
+      "col": "CL:0000127 DNase-seq",
+      "value": 0.223114
+     },
+     {
+      "track": "0",
+      "col": "NTR:0001484 DNase-seq",
+      "value": -0.214517
+     },
+     {
+      "track": "0",
+      "col": "EFO:0005901 DNase-seq",
+      "value": -0.21186
+     },
+     {
+      "track": "0",
+      "col": "CL:0000706 DNase-seq",
+      "value": 0.207193
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001196 DNase-seq",
+      "value": 0.201968
+     },
+     {
+      "track": "0",
+      "col": "CL:0002557 DNase-seq",
+      "value": 0.201566
+     },
+     {
+      "track": "0",
+      "col": "CL:0002304 DNase-seq",
+      "value": 0.197768
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001187 DNase-seq",
+      "value": 0.190136
+     },
+     {
+      "track": "0",
+      "col": "CL:0000653 DNase-seq",
+      "value": 0.188336
+     },
+     {
+      "track": "0",
+      "col": "EFO:0005704 DNase-seq",
+      "value": 0.180512
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002083 DNase-seq",
+      "value": 0.177641
+     }
+    ],
+    "n_nonzero": 305,
+    "max_abs_effect": 1.173738
+   },
+   {
+    "scorer": "CenterMaskScorer(requested_output=ATAC, width=501, aggregation_type=DIFF_LOG2_SUM)",
+    "shape": [
+     1,
+     167
+    ],
+    "top_scores": [
+     {
+      "track": "0",
+      "col": "UBERON:0008971 ATAC-seq",
+      "value": 1.689884
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0004992 ATAC-seq",
+      "value": 1.550643
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0000317 ATAC-seq",
+      "value": 1.372861
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001157 ATAC-seq",
+      "value": 0.906461
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0005033 ATAC-seq",
+      "value": 0.841227
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002168 ATAC-seq",
+      "value": 0.313076
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001264 ATAC-seq",
+      "value": 0.277188
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0000945 ATAC-seq",
+      "value": 0.271912
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0008953 ATAC-seq",
+      "value": 0.265942
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001115 ATAC-seq",
+      "value": 0.25739
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002394 ATAC-seq",
+      "value": 0.24823
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001114 ATAC-seq",
+      "value": 0.239226
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002074 ATAC-seq",
+      "value": 0.218799
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001150 ATAC-seq",
+      "value": 0.216499
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001259 ATAC-seq",
+      "value": 0.19734
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001196 ATAC-seq",
+      "value": 0.166321
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002170 ATAC-seq",
+      "value": 0.154747
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002048 ATAC-seq",
+      "value": 0.153141
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002190 ATAC-seq",
+      "value": 0.146426
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002171 ATAC-seq",
+      "value": 0.144581
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001187 ATAC-seq",
+      "value": 0.144386
+     },
+     {
+      "track": "0",
+      "col": "EFO:0001086 ATAC-seq",
+      "value": 0.134517
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002046 ATAC-seq",
+      "value": 0.125298
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002067 ATAC-seq",
+      "value": 0.1137
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002824 ATAC-seq",
+      "value": 0.110693
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0000056 ATAC-seq",
+      "value": 0.106178
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0003889 ATAC-seq",
+      "value": 0.102679
+     },
+     {
+      "track": "0",
+      "col": "NTR:0000492 ATAC-seq",
+      "value": 0.09906
+     },
+     {
+      "track": "0",
+      "col": "EFO:0002713 ATAC-seq",
+      "value": 0.094857
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002079 ATAC-seq",
+      "value": 0.09364
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002113 ATAC-seq",
+      "value": 0.087085
+     },
+     {
+      "track": "0",
+      "col": "CL:0000624 ATAC-seq",
+      "value": 0.086368
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0001159 ATAC-seq",
+      "value": 0.078884
+     },
+     {
+      "track": "0",
+      "col": "CL:0000907 ATAC-seq",
+      "value": 0.078649
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002078 ATAC-seq",
+      "value": 0.070008
+     },
+     {
+      "track": "0",
+      "col": "CLO:0026874 ATAC-seq",
+      "value": 0.067201
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0002107 ATAC-seq",
+      "value": 0.066583
+     },
+     {
+      "track": "0",
+      "col": "UBERON:0008952 ATAC-seq",
+      "value": 0.066323
+     },
+     {
+      "track": "0",
+      "col": "CL:0000900 ATAC-seq",
+      "value": 0.066025
+     },
+     {
+      "track": "0",
+      "col": "CL:0000913 ATAC-seq",
+      "value": 0.061976
+     }
+    ],
+    "n_nonzero": 167,
+    "max_abs_effect": 1.689884
+   },
+   {
+    "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+    "shape": [
+     6,
+     371
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0001211 total RNA-seq",
+      "value": 0.104717
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0004992 total RNA-seq",
+      "value": 0.093866
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0008971 total RNA-seq",
+      "value": 0.091983
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0001157 total RNA-seq",
+      "value": 0.091772
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0000317 total RNA-seq",
+      "value": 0.089804
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001159 polyA plus RNA-seq",
+      "value": 0.086555
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0008971 total RNA-seq",
+      "value": 0.080553
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0004992 total RNA-seq",
+      "value": 0.080247
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq",
+      "value": 0.08015
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq",
+      "value": 0.077772
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001157 total RNA-seq",
+      "value": 0.075229
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0000317 total RNA-seq",
+      "value": 0.073674
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0002108 polyA plus RNA-seq",
+      "value": 0.071732
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0002108 polyA plus RNA-seq",
+      "value": 0.071658
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0008971 total RNA-seq",
+      "value": 0.07047
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0000947 polyA plus RNA-seq",
+      "value": 0.070037
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0000317 total RNA-seq",
+      "value": 0.069988
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0001157 total RNA-seq",
+      "value": 0.069563
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0004992 total RNA-seq",
+      "value": 0.068495
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0001211 total RNA-seq",
+      "value": 0.068128
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq",
+      "value": 0.067814
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0000059 polyA plus RNA-seq",
+      "value": 0.067025
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0005033 total RNA-seq",
+      "value": 0.063245
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0000945 total RNA-seq",
+      "value": 0.059031
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq",
+      "value": 0.058107
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001159 gtex Colon_Sigmoid polyA plus RNA-seq",
+      "value": 0.057935
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "CL:0000182 total RNA-seq",
+      "value": 0.05645
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq",
+      "value": 0.055547
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0000059 polyA plus RNA-seq",
+      "value": 0.053524
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0001211 total RNA-seq",
+      "value": 0.050678
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "CL:0000182 polyA plus RNA-seq",
+      "value": 0.049577
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "EFO:0001193 total RNA-seq",
+      "value": 0.049496
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0002108 polyA plus RNA-seq",
+      "value": 0.048458
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "CL:0000515 polyA plus RNA-seq",
+      "value": -0.048005
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "CL:0000182 polyA plus RNA-seq",
+      "value": 0.047228
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "UBERON:0000059 polyA plus RNA-seq",
+      "value": 0.045356
+     },
+     {
+      "track": "ENSG00000200664.1",
+      "col": "UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq",
+      "value": 0.04525
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "UBERON:0001159 polyA plus RNA-seq",
+      "value": 0.044754
+     },
+     {
+      "track": "ENSG00000226806.1",
+      "col": "CL:0000187 polyA plus RNA-seq",
+      "value": -0.043554
+     },
+     {
+      "track": "ENSG00000115850.10",
+      "col": "CL:0000187 polyA plus RNA-seq",
+      "value": -0.043386
+     }
+    ],
+    "n_nonzero": 2225,
+    "max_abs_effect": 0.104717
+   }
+  ]
+ },
+ "rs429358": {
+  "variant": {
+   "rsid": "rs429358",
+   "chrom": "chr19",
+   "pos": 44908684,
+   "ref": "T",
+   "alt": "C",
+   "gene": "APOE",
+   "consequence": "missense (Cys130Arg)",
+   "why": "Defines the APOE-e4 haplotype, the strongest common genetic risk factor for late-onset Alzheimer disease.",
+   "scorers": [
+    "SPLICE_SITES",
+    "SPLICE_SITE_USAGE",
+    "RNA_SEQ"
+   ]
+  },
+  "scores": [
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+    "shape": [
+     1,
+     2
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "donor",
+      "value": 0.029593
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "acceptor",
+      "value": 0.007812
+     }
+    ],
+    "n_nonzero": 2,
+    "max_abs_effect": 0.029593
+   },
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+    "shape": [
+     1,
+     367
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000623 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000624 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000792 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000823 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000842 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000895 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000897 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000900 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000909 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:1001606 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0001193 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0001196 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0001200 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002074 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002330 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002784 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000236 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000623 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000625 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000897 polyA plus RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000900 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0001053 polyA plus RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CLO:0007045 polyA plus RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0005719 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0006711 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_UBERON:0009834 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000221 polyA plus RNA-seq",
+      "value": 0.004883
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_UBERON:0002369 polyA plus RNA-seq",
+      "value": 0.004883
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000047 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000062 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000084 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000115 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000127 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000134 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000138 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000187 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000187 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000192 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000192 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000236 polyA plus RNA-seq",
+      "value": 0.003906
+     }
+    ],
+    "n_nonzero": 367,
+    "max_abs_effect": 0.007812
+   },
+   {
+    "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+    "shape": [
+     13,
+     371
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0000572 gtex Cells_EBV-transformed_lymphocytes polyA plus RNA-seq",
+      "value": -0.039791
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0008450 polyA plus RNA-seq",
+      "value": -0.038061
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0001059 polyA plus RNA-seq",
+      "value": -0.037339
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:1001606 total RNA-seq",
+      "value": -0.034174
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002785 polyA plus RNA-seq",
+      "value": -0.033597
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0030018 polyA plus RNA-seq",
+      "value": -0.03231
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0001159 polyA plus RNA-seq",
+      "value": -0.028392
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002786 polyA plus RNA-seq",
+      "value": -0.026684
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000100 total RNA-seq",
+      "value": -0.026296
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0006711 total RNA-seq",
+      "value": -0.025034
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000236 total RNA-seq",
+      "value": -0.024967
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0000945 total RNA-seq",
+      "value": 0.024493
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0005723 polyA plus RNA-seq",
+      "value": -0.023466
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:2000010 total RNA-seq",
+      "value": 0.02335
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0002084 polyA plus RNA-seq",
+      "value": -0.023199
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0002618 total RNA-seq",
+      "value": -0.023153
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "UBERON:0003662 polyA plus RNA-seq",
+      "value": -0.022761
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002784 total RNA-seq",
+      "value": -0.022592
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000900 polyA plus RNA-seq",
+      "value": 0.022523
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0011907 gtex Muscle_Skeletal polyA plus RNA-seq",
+      "value": -0.022091
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0002080 polyA plus RNA-seq",
+      "value": -0.022063
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0001157 total RNA-seq",
+      "value": 0.021842
+     },
+     {
+      "track": "ENSG00000267467.4",
+      "col": "CL:0000182 total RNA-seq",
+      "value": 0.021539
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002784 polyA plus RNA-seq",
+      "value": -0.021487
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002009 gtex Cells_Cultured_fibroblasts polyA plus RNA-seq",
+      "value": -0.021219
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:2000013 polyA plus RNA-seq",
+      "value": -0.020789
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0002106 polyA plus RNA-seq",
+      "value": -0.020608
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000515 polyA plus RNA-seq",
+      "value": -0.02034
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "NTR:0000524 polyA plus RNA-seq",
+      "value": -0.020339
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0006270 polyA plus RNA-seq",
+      "value": -0.020328
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:2000013 polyA plus RNA-seq",
+      "value": -0.020295
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0004264 gtex Skin_Sun_Exposed_Lower_leg polyA plus RNA-seq",
+      "value": -0.020245
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0005714 polyA plus RNA-seq",
+      "value": -0.020235
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000127 total RNA-seq",
+      "value": -0.020094
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0001196 polyA plus RNA-seq",
+      "value": -0.020059
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0000473 polyA plus RNA-seq",
+      "value": -0.019907
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000084 polyA plus RNA-seq",
+      "value": -0.019693
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "UBERON:0003663 polyA plus RNA-seq",
+      "value": -0.019616
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0002048 polyA plus RNA-seq",
+      "value": -0.019593
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "UBERON:0036149 gtex Skin_Not_Sun_Exposed_Suprapubic polyA plus RNA-seq",
+      "value": -0.019522
+     }
+    ],
+    "n_nonzero": 4820,
+    "max_abs_effect": 0.039791
+   }
+  ]
+ },
+ "rs7412": {
+  "variant": {
+   "rsid": "rs7412",
+   "chrom": "chr19",
+   "pos": 44908822,
+   "ref": "C",
+   "alt": "T",
+   "gene": "APOE",
+   "consequence": "missense (Arg176Cys)",
+   "why": "Defines the APOE-e2 haplotype, which is protective against Alzheimer disease. Pairs with rs429358 as a contrast: two missense variants in one gene, opposite directions of risk.",
+   "scorers": [
+    "SPLICE_SITES",
+    "SPLICE_SITE_USAGE",
+    "RNA_SEQ"
+   ]
+  },
+  "scores": [
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+    "shape": [
+     1,
+     2
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "donor",
+      "value": 0.015438
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "acceptor",
+      "value": 0.007812
+     }
+    ],
+    "n_nonzero": 2,
+    "max_abs_effect": 0.015438
+   },
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+    "shape": [
+     1,
+     367
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000084 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000236 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000623 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000792 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000823 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000842 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000895 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000895 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000897 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000897 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000900 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000909 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000909 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0002327 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0001193 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0001200 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002059 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002074 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002713 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002784 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002784 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002791 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0002819 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0003044 polyA plus RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0006711 total RNA-seq",
+      "value": 0.007812
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000623 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000624 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000625 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000900 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0001053 polyA plus RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CLO:0007045 polyA plus RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_EFO:0005719 total RNA-seq",
+      "value": 0.005859
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000062 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000100 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000115 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000121 polyA plus RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000127 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000137 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000138 total RNA-seq",
+      "value": 0.003906
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "usage_CL:0000187 polyA plus RNA-seq",
+      "value": 0.003906
+     }
+    ],
+    "n_nonzero": 367,
+    "max_abs_effect": 0.007812
+   },
+   {
+    "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+    "shape": [
+     13,
+     371
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0002618 polyA plus RNA-seq",
+      "value": 0.03107
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000788 polyA plus RNA-seq",
+      "value": 0.024529
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0005723 polyA plus RNA-seq",
+      "value": 0.023667
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0001196 polyA plus RNA-seq",
+      "value": 0.023115
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000515 polyA plus RNA-seq",
+      "value": 0.02251
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0002372 total RNA-seq",
+      "value": 0.020756
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0005714 polyA plus RNA-seq",
+      "value": 0.020671
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0005723 polyA plus RNA-seq",
+      "value": 0.019652
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000187 polyA plus RNA-seq",
+      "value": 0.019517
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000823 polyA plus RNA-seq",
+      "value": 0.018894
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000515 polyA plus RNA-seq",
+      "value": 0.018578
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0005714 total RNA-seq",
+      "value": 0.01837
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0002553 polyA plus RNA-seq",
+      "value": 0.017923
+     },
+     {
+      "track": "ENSG00000267467.4",
+      "col": "CL:0000182 total RNA-seq",
+      "value": -0.017825
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000187 total RNA-seq",
+      "value": 0.017196
+     },
+     {
+      "track": "ENSG00000214855.12",
+      "col": "UBERON:0013756 gtex Whole_Blood polyA plus RNA-seq",
+      "value": 0.016974
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0005698 total RNA-seq",
+      "value": -0.016903
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0000837 total RNA-seq",
+      "value": 0.016641
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0006270 polyA plus RNA-seq",
+      "value": 0.016625
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000515 total RNA-seq",
+      "value": 0.016465
+     },
+     {
+      "track": "ENSG00000214855.12",
+      "col": "UBERON:0003124 polyA plus RNA-seq",
+      "value": 0.016401
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "UBERON:0001157 total RNA-seq",
+      "value": 0.016158
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0001196 polyA plus RNA-seq",
+      "value": 0.016018
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0002059 total RNA-seq",
+      "value": -0.015976
+     },
+     {
+      "track": "ENSG00000214855.12",
+      "col": "UBERON:0001987 polyA plus RNA-seq",
+      "value": 0.015867
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000138 total RNA-seq",
+      "value": 0.015809
+     },
+     {
+      "track": "ENSG00000280087.1",
+      "col": "EFO:0002150 total RNA-seq",
+      "value": -0.015739
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "CL:0001053 polyA plus RNA-seq",
+      "value": 0.01573
+     },
+     {
+      "track": "ENSG00000234906.11",
+      "col": "UBERON:0000948 total RNA-seq",
+      "value": -0.015656
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:0000127 total RNA-seq",
+      "value": 0.015438
+     },
+     {
+      "track": "ENSG00000224916.9",
+      "col": "UBERON:0000948 total RNA-seq",
+      "value": -0.015432
+     },
+     {
+      "track": "ENSG00000214855.12",
+      "col": "CL:0001054 polyA plus RNA-seq",
+      "value": 0.015428
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:1001608 polyA plus RNA-seq",
+      "value": 0.015146
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0006270 polyA plus RNA-seq",
+      "value": 0.015141
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "CL:2000013 polyA plus RNA-seq",
+      "value": 0.014891
+     },
+     {
+      "track": "ENSG00000130203.10",
+      "col": "EFO:0003072 polyA plus RNA-seq",
+      "value": 0.014585
+     },
+     {
+      "track": "ENSG00000234906.11",
+      "col": "UBERON:0001496 total RNA-seq",
+      "value": -0.014352
+     },
+     {
+      "track": "ENSG00000214855.12",
+      "col": "UBERON:0000088 polyA plus RNA-seq",
+      "value": 0.01435
+     },
+     {
+      "track": "ENSG00000130208.10",
+      "col": "EFO:0002779 polyA plus RNA-seq",
+      "value": 0.014348
+     },
+     {
+      "track": "ENSG00000291128.1",
+      "col": "UBERON:0013756 gtex Whole_Blood polyA plus RNA-seq",
+      "value": 0.014308
+     }
+    ],
+    "n_nonzero": 4821,
+    "max_abs_effect": 0.03107
+   }
+  ]
+ },
+ "rs4244285": {
+  "variant": {
+   "rsid": "rs4244285",
+   "chrom": "chr10",
+   "pos": 94781859,
+   "ref": "G",
+   "alt": "A",
+   "gene": "CYP2C19",
+   "consequence": "splice defect (CYP2C19*2)",
+   "why": "The CYP2C19*2 allele: creates an aberrant splice site that knocks out enzyme activity and changes drug metabolism (e.g. clopidogrel response). Chosen to exercise the splicing scorers on a variant whose mechanism is splicing.",
+   "scorers": [
+    "SPLICE_SITES",
+    "SPLICE_SITE_USAGE",
+    "SPLICE_JUNCTIONS"
+   ]
+  },
+  "scores": [
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITES, width=None)",
+    "shape": [
+     2,
+     2
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000276490.1",
+      "col": "acceptor",
+      "value": 0.839824
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "acceptor",
+      "value": 0.839824
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "donor",
+      "value": 0.011719
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "donor",
+      "value": 0.011719
+     }
+    ],
+    "n_nonzero": 4,
+    "max_abs_effect": 0.839824
+   },
+   {
+    "scorer": "GeneMaskSplicingScorer(requested_output=SPLICE_SITE_USAGE, width=None)",
+    "shape": [
+     2,
+     367
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_CL:0000182 total RNA-seq",
+      "value": 0.506165
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_CL:0000182 total RNA-seq",
+      "value": 0.506165
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_CL:0000169 total RNA-seq",
+      "value": 0.479462
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_CL:0000169 total RNA-seq",
+      "value": 0.479462
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_CL:0000182 polyA plus RNA-seq",
+      "value": 0.440399
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_CL:0000182 polyA plus RNA-seq",
+      "value": 0.440399
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0000473 polyA plus RNA-seq",
+      "value": 0.436768
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0000473 polyA plus RNA-seq",
+      "value": 0.436768
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0000016 polyA plus RNA-seq",
+      "value": 0.431396
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0000016 polyA plus RNA-seq",
+      "value": 0.431396
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0009834 total RNA-seq",
+      "value": 0.42334
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0009834 total RNA-seq",
+      "value": 0.42334
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_CL:0000100 total RNA-seq",
+      "value": 0.422791
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_CL:0000100 total RNA-seq",
+      "value": 0.422791
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0002107 polyA plus RNA-seq",
+      "value": 0.398285
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0002107 polyA plus RNA-seq",
+      "value": 0.398285
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0001264 total RNA-seq",
+      "value": 0.396973
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0001264 total RNA-seq",
+      "value": 0.396973
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0000473 total RNA-seq",
+      "value": 0.389038
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0000473 total RNA-seq",
+      "value": 0.389038
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0002107 total RNA-seq",
+      "value": 0.382889
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0002107 total RNA-seq",
+      "value": 0.382889
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0002369 polyA plus RNA-seq",
+      "value": 0.375122
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0002369 polyA plus RNA-seq",
+      "value": 0.375122
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0001264 polyA plus RNA-seq",
+      "value": 0.360321
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0001264 polyA plus RNA-seq",
+      "value": 0.360321
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0018117 polyA plus RNA-seq",
+      "value": 0.353714
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0018117 polyA plus RNA-seq",
+      "value": 0.353714
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0004992 total RNA-seq",
+      "value": 0.351761
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0004992 total RNA-seq",
+      "value": 0.351761
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0000081 total RNA-seq",
+      "value": 0.349915
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0000081 total RNA-seq",
+      "value": 0.349915
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0018116 polyA plus RNA-seq",
+      "value": 0.344177
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0018116 polyA plus RNA-seq",
+      "value": 0.344177
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0001211 total RNA-seq",
+      "value": 0.343597
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0001211 total RNA-seq",
+      "value": 0.343597
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_UBERON:0001114 total RNA-seq",
+      "value": 0.340668
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_UBERON:0001114 total RNA-seq",
+      "value": 0.340668
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "usage_EFO:0001187 polyA plus RNA-seq",
+      "value": 0.33223
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "usage_EFO:0001187 polyA plus RNA-seq",
+      "value": 0.33223
+     }
+    ],
+    "n_nonzero": 734,
+    "max_abs_effect": 0.506165
+   },
+   {
+    "scorer": "SpliceJunctionScorer()",
+    "shape": [
+     4,
+     367
+    ],
+    "top_scores": [
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0002107 polyA plus RNA-seq",
+      "value": 4.75
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0002107 polyA plus RNA-seq",
+      "value": 4.75
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001114 total RNA-seq",
+      "value": 4.351562
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001114 total RNA-seq",
+      "value": 4.351562
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001115 total RNA-seq",
+      "value": 4.339844
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001115 total RNA-seq",
+      "value": 4.339844
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001114 gtex Liver polyA plus RNA-seq",
+      "value": 4.265625
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001114 gtex Liver polyA plus RNA-seq",
+      "value": 4.265625
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_CL:0000182 total RNA-seq",
+      "value": 4.253906
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_CL:0000182 total RNA-seq",
+      "value": 4.253906
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0002107 total RNA-seq",
+      "value": 4.195312
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0002107 total RNA-seq",
+      "value": 4.195312
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001211 total RNA-seq",
+      "value": 4.125
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001211 total RNA-seq",
+      "value": 4.125
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq",
+      "value": 4.042969
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq",
+      "value": 4.042969
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_CL:0000182 polyA plus RNA-seq",
+      "value": 3.787109
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_CL:0000182 polyA plus RNA-seq",
+      "value": 3.787109
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0004992 total RNA-seq",
+      "value": 3.773438
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0004992 total RNA-seq",
+      "value": 3.773438
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0002107 polyA plus RNA-seq",
+      "value": 3.761719
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0002107 polyA plus RNA-seq",
+      "value": 3.761719
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0008971 total RNA-seq",
+      "value": 3.685547
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0008971 total RNA-seq",
+      "value": 3.685547
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0002108 polyA plus RNA-seq",
+      "value": 3.642578
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0002108 polyA plus RNA-seq",
+      "value": 3.642578
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001157 total RNA-seq",
+      "value": 3.626953
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001157 total RNA-seq",
+      "value": 3.626953
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0000317 total RNA-seq",
+      "value": 3.482422
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0000317 total RNA-seq",
+      "value": 3.482422
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001114 total RNA-seq",
+      "value": 3.472656
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001114 total RNA-seq",
+      "value": 3.472656
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0005033 total RNA-seq",
+      "value": 3.453125
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0005033 total RNA-seq",
+      "value": 3.453125
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0001115 total RNA-seq",
+      "value": 3.439453
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0001115 total RNA-seq",
+      "value": 3.439453
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_CL:0000182 total RNA-seq",
+      "value": 3.404297
+     },
+     {
+      "track": "ENSG00000276490.1",
+      "col": "junction_UBERON:0002107 total RNA-seq",
+      "value": 3.404297
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_CL:0000182 total RNA-seq",
+      "value": 3.404297
+     },
+     {
+      "track": "ENSG00000165841.11",
+      "col": "junction_UBERON:0002107 total RNA-seq",
+      "value": 3.404297
+     }
+    ],
+    "n_nonzero": 1468,
+    "max_abs_effect": 4.75
+   }
+  ]
+ }
+}
